@@ -4,9 +4,11 @@ import com.training.ToDoApp_Api.ToDoApp.Entity.Task;
 import com.training.ToDoApp_Api.ToDoApp.Repository.TaskRepository;
 import com.training.ToDoApp_Api.ToDoApp.Service.Interfaces.ITaskService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class TaskService implements ITaskService {
 
     @Autowired

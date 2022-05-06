@@ -4,9 +4,11 @@ import com.training.ToDoApp_Api.ToDoApp.Entity.Category;
 import com.training.ToDoApp_Api.ToDoApp.Repository.CategoryRepository;
 import com.training.ToDoApp_Api.ToDoApp.Service.Interfaces.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CategoryService implements ICategoryService {
 
     @Autowired
