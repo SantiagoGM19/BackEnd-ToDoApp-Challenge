@@ -11,8 +11,6 @@ public interface ICategoryService {
 
     Category saveCategory(Category category);
 
-    Category updateCategory(Category category);
-
-    void deleteCategory(Long id);
+    Boolean deleteCategory(Long id);
 
 }
